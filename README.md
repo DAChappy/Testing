@@ -33,3 +33,4 @@ With the exception of the domain controller the template only deploys the operat
 This template also deploys and configures an AD DS single-domain forest and populates the domain with OUs, users, and groups.  All of the VMs on the internal subnet are joined to this domain.
 
 Template based on mbakunas/azure-ad-sso-lab
+Pulled it from dakoer
