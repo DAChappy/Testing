@@ -1,4 +1,4 @@
-# Create a simple Azure Active Directory single sign-on lab environment
+# Create a simple Azure Active Directory single sign-on lab environment in GovCloud
 
 
 This template will deploy a set of Windows Server 2019 VMs that can be used as an Azure AD single sign-on lab.
@@ -33,4 +33,5 @@ With the exception of the domain controller the template only deploys the operat
 This template also deploys and configures an AD DS single-domain forest and populates the domain with OUs, users, and groups.  All of the VMs on the internal subnet are joined to this domain.
 
 Template based on mbakunas/azure-ad-sso-lab
-Pulled it from dakoer
+
+Pulled it from dakoer (https://github.com/dakoer/synclab)
