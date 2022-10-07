@@ -1,5 +1,5 @@
 {
-  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
   "contentVersion": "1.0.0.0",
 
   "parameters": {
@@ -83,7 +83,7 @@
             "name": "[concat(parameters('vmName'),'-osdisk')]",
             "createOption": "FromImage",
             "vhd": {
-              "uri": "[concat('https', '://', parameters('vmStorageAccountName'), '.blob.core.windows.net/',parameters('vmStorageAccountContainerName'), '/', tolower(parameters('vmName')), 'osdisk.vhd')]"
+              "uri": "[concat('https', '://', parameters('vmStorageAccountName'), '.blob.core.usgovcloudapi.net/',parameters('vmStorageAccountContainerName'), '/', tolower(parameters('vmName')), 'osdisk.vhd')]"
             },
             "caching": "ReadWrite"
           },
@@ -93,7 +93,7 @@
               "name": "[concat(parameters('vmName'),'-datadisk1')]",
               "createOption": "Empty",
               "vhd": {
-                "uri": "[concat('https', '://', parameters('vmStorageAccountName'), '.blob.core.windows.net/', parameters('vmStorageAccountContainerName'), '/', tolower(parameters('vmName')), 'datadisk1.vhd')]"
+                "uri": "[concat('https', '://', parameters('vmStorageAccountName'), '.blob.core.usgovcloudapi.net/', parameters('vmStorageAccountContainerName'), '/', tolower(parameters('vmName')), 'datadisk1.vhd')]"
               },
               "caching": "None",
               "diskSizeGB": "[parameters('vmDataDiskSize')]"
