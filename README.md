@@ -4,12 +4,12 @@
 This template will deploy a set of Windows Server 2016 VMs that can be used as an Azure AD single sign-on lab.
 
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3a%2f%2fraw.githubusercontent.com%2fdakoer%2fsynclab%2fmaster%2fazuredeploy.json" target="_blank">
-    <img src="http://azuredeploy.net/deploybutton.png"/>
+<a href=https://portal.azure.us/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FDAChappy%2FTesting%2Fmaster%2Fazuredeploy.json" target="_blank">
+  <img src="https://aka.ms/deploytoazurebutton"/>
 </a>
-<a href="http://armviz.io/#/?load=https%3a%2f%2fraw.githubusercontent.com%2fdakoer%2fsynclab%2fmaster%2fazuredeploy.json" target="_blank">
-    <img src="http://armviz.io/visualizebutton.png"/>
-</a>
+#<a href="http://armviz.io/#/?load=https%3a%2f%2fraw.githubusercontent.com%2fdakoer%2fsynclab%2fmaster%2fazuredeploy.json" target="_blank">
+#  <img src="http://armviz.io/visualizebutton.png"/>
+#</a>
 
 ## Networking
 
