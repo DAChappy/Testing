@@ -9,7 +9,7 @@
     },
     "vmSize": {
       "type": "string",
-      "defaultValue": "Standard_D1_v2"
+      "defaultValue": "Standard_DS1_v2"
     },
     "adminUsername": {
       "type": "string",
